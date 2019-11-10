@@ -1,0 +1,19 @@
+{
+  "name": "authorealm-snowflake",
+  "version": "1.0.0",
+  "description": "A snowflake generator used through authorealm application (Inspired by: Twitter's Snowflake)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hazmi35/authorealm-snowflake.git"
+  },
+  "author": "Hazmi35",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Hazmi35/authorealm-snowflake/issues"
+  },
+  "homepage": "https://github.com/Hazmi35/authorealm-snowflake#readme"
+}

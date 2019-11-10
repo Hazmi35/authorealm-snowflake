@@ -1,6 +1,6 @@
 {
   "name": "authorealm-snowflake",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "A snowflake generator used through authorealm application (Inspired by: Twitter's Snowflake)",
   "main": "index.js",
   "types": "typings.d.ts",

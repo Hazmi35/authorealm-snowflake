@@ -39,7 +39,7 @@ class SnowflakeGenerator {
      * @param {Snowflake} snowflake Snowflake to deconstruct
      * @returns {DeconstructedSnowflake} Deconstructed snowflake
      */
-    static deconstruct(snowflake) {
+    deconstruct(snowflake) {
         const BINARY = idToBinary(snowflake).toString(2).padStart(64, '0');
         const res = {
             timestamp: parseInt(BINARY.substring(0, 42), 2) + EPOCH,

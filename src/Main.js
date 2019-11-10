@@ -11,6 +11,7 @@ let INCREMENT = 0;
  */
 class SnowflakeGenerator {
     constructor(epoch) {
+        if (!epoch) throw new Error(`"epoch" param was not passed.`)
         EPOCH = epoch;
         this.epoch = EPOCH;
         this.util = { binaryToID, idToBinary }

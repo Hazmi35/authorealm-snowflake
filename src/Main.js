@@ -7,7 +7,7 @@ let INCREMENT = 0;
 
 /**
  * An AuthoRealm's snowflake generator
- * @param epoch Epoch time used for the snowflake
+ * @param {number} epoch Epoch time used for the snowflake
  */
 class SnowflakeGenerator {
     constructor(epoch) {

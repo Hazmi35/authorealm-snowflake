@@ -4,9 +4,8 @@
   "description": "A snowflake generator used through authorealm application (Inspired by: Twitter's Snowflake)",
   "main": "index.js",
   "types": "typings.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
+  "credits": "Modified from: https://github.com/discordjs/discord.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hazmi35/authorealm-snowflake.git"
